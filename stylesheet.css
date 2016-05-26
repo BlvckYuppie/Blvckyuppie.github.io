@@ -76,15 +76,32 @@ h2{
 }
 
 #img1:hover {
-opacity: 0;
-}
-
-#img2 {
   opacity: 0;
 }
 
-#img2:hover {
+#img2 {
   opacity: 1;
+}
+
+/*#img2:hover {
+  opacity: 1;
+}*/
+
+#img2:hover {
+  animation: wildspinmove 5s 3;
+  -moz-animation: wildspinmove 5s 3;
+}
+
+@keyframes wildspinmove {
+  0% {
+    transform: rotate(90deg) skew(45deg) translate(-1px);
+  }
+  50% {
+    transform: rotate(360deg) skew(359deg) translate(4px);
+  }
+  100% {
+    transform: rotate(0deg) skew(9deg) translate(-1px);
+  }
 }
 
 
