@@ -17,7 +17,7 @@ html, body{
   text-shadow: 1px 1px 1px #fff;
 }
 body{
-  background-image: url(background.png);
+  background-image: url("background.png");
   text-align:center;
 }
 h1{
@@ -46,30 +46,52 @@ h2{
   width:100%;
   height:100%;
 }*/
+/*.techlife {
+  outline: 10px solid red;
+  /*transition:transform 7s;*/
+  /*height:25%;
+  width:25%;
+  background-image: url("TillTheNextLifeSky.png");
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right:auto;
+}*/
+
 .techlife {
   outline: 10px solid red;
-  transition:transform 7s;
   height:25%;
   width:25%;
-  /*background-image: url("TillTheNextLifeSky.png");
-  background-size: cover;
-  background-position: center;*/
   margin-left: auto;
   margin-right:auto;
 }
-.techlife:hover{
-transform: rotate(360deg) skew(359deg) translate(-1px);
-box-shadow:
-}
-.techlife img{
+
+.techlife img {
   width: 100%;
   height: 100%;
-  transition:opacity 5s;
+}
+
+#img1, #img2 {
+  transition: 1s;
+}
+
+#img1:hover {
+opacity: 0;
 }
 
 #img2 {
-  visibility: hidden;
+  opacity: 0;
 }
+
+#img2:hover {
+  opacity: 1;
+}
+
+
+/*#img2:hover{
+transform: rotate(360deg) skew(359deg) translate(-1px);
+box-shadow:
+}*/
 
 .headshot:hover img{
 opacity 0;
