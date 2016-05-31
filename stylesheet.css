@@ -20,6 +20,7 @@ body{
   background-image: url(background.png);
   text-align:center;
 }
+/* AM: Try to be consistent with indentation and spacing. I tend to be a broken record about this but code readability and consistency is so important and can give you a leg up in the job search! */
 h1{
   font-size:120px;
   line-height:normal;
@@ -55,7 +56,9 @@ padding-top: 20px;
   margin-right:auto;
 }
 .techlife:hover{
+  /* AM: Trippy! */
 transform: rotate(360deg) skew(359deg) translate(-1px);
+  /* AM: If you're not going to use this property, make sure to remove it. */
 box-shadow:
 }
 .techlife:img{
@@ -64,6 +67,10 @@ box-shadow:
 .headshot:hover img{
 opacity 0;
 }
+
+/* AM: Not a big deal now, but I would encourage you to (a) remove commented-out code from the master branch of your submitted work and (b) if you want to keep that code, place it in a separate branch of your code. */
+/* AM: You don't want employers to see big chunks of unused code...unless there is a very good reason to leave it in. */
+/* AM: That doesn't mean you can't use comments though! Always helpful to say what your code is doing. */
 
 /*@font-face { font-family: FONTS; s rc: url('FONTS.FONTS');/*
 /*@font-face { font-family: FONTS; src: url('FONTS.FONTS');/*
