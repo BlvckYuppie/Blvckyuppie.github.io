@@ -12,14 +12,41 @@
 html, body{
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
-  line-height: 30px
+  line-height: 30px;
   color:#444;
   text-shadow: 1px 1px 1px #fff;
 }
 body{
-  background-image: url(background.png);
+  background-image: url(/Users/Corduroy/wdi/sandbox/webpage/Nebula-Wallpaper-HD-Download.jpg);
+  background-size: cover;
   text-align:center;
+  max-width: 500px;
 }
+#techlife {
+  position:relative;
+  max-height: height:281px;
+  max-width: width:450px;
+  padding-left:150px;
+  margin:0 auto;
+
+}
+
+#techlife img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#techlife img.top:hover {
+  opacity:0;
+}
+#text{
+  max-width: 300px;
+}
+
 h1{
   font-size:120px;
   line-height:normal;
@@ -34,36 +61,7 @@ font-family: 'Great Vibes', cursive;
 color: white;
 padding-top: 20px;
 }
-.hero{
-  display:flex;
-  flex-direction:column;
-  align-content:center;
-  height:671 auto;
-  width:581 auto;;
-}
-.hero img{
-  width:100%;
-  height:100%;
-}
-.techlife {
-  transition:transform 7s;
-  height:50%;
-  width:50%;
-  background-image:url(TillTheNextLifeSky.png);
-  background-size:contain;
-  margin-left: auto;
-  margin-right:auto;
-}
-.techlife:hover{
-transform: rotate(360deg) skew(359deg) translate(-1px);
-box-shadow:
-}
-.techlife:img{
-  transition:opacity 5s;
-}
-.headshot:hover img{
-opacity 0;
-}
+
 
 /*@font-face { font-family: FONTS; s rc: url('FONTS.FONTS');/*
 /*@font-face { font-family: FONTS; src: url('FONTS.FONTS');/*
